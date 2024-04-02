@@ -4,6 +4,7 @@ const isAndroid = Platform.OS === 'android';
 
 export const styles = StyleSheet.create({
   displayText: {
+    color: 'black',
     fontSize: isAndroid ? 82 : 65,
     fontFamily: isAndroid ? 'Roboto' : 'Courier New',
     marginBottom: 25,
@@ -30,6 +31,7 @@ export const styles = StyleSheet.create({
   column: {
     flex: 1,
     textAlign: 'center',
+    color: 'black',
   },
   header: {
     flexDirection: 'row',
